@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-- **Development:** `npm run dev` — Main template at `/`, patterns at `/patterns/OCR/`, `/patterns/AskDela/`
+- **Development:** `npm install`and then `npm run dev` 
 - **Build:** `npm run build` — Output in `dist/`
 - **Preview:** `npm run preview` — Serve the built app
 
@@ -24,4 +24,4 @@ Pattern directories live in `patterns/`. To add a new pattern:
 
 In `entry.jsx`, import from `../../src/` for shared resources (index.css, PatternDocument).
 
-Use `patterns/OCR/` or `patterns/AskDela/` as reference implementations.
+Use `patterns/OCR/` as reference implementations.

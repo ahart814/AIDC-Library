@@ -142,14 +142,7 @@ const PatternDocument = ({ data, templateMode = false }) => {
       {/* Overview */}
       {overview && (
         <Section id="overview" title="Pattern Overview">
-          {templateMode && (
-            <InfoBox type="info">
-              <strong>Two-Axis Framework:</strong> This pattern is organized first by{' '}
-              <strong>Interaction Model</strong> (how users engage with the AI), then by{' '}
-              <strong>AI Capabilities</strong> (what the AI produces). This structure helps
-              designers find patterns based on the user experience they're creating.
-            </InfoBox>
-          )}
+          
           {overview.images?.length > 0 && (
             <div className="mt-4 space-y-6">
               {overview.images.slice(0, 3).map((img, i) => (

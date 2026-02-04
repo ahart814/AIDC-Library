@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIDC Library - Pattern Template</title>
+</head>
+<body style="margin: 0; font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; background-color: #f3f4f6; padding: 2rem 0;">
+  <div style="max-width: 56rem; margin: 0 auto; padding: 1.5rem; background: white;">
+    
+    <!-- Framework Legend (template mode) -->
+    <div style="margin-bottom: 1.5rem; padding: 1rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
+      <h3 style="font-weight: 600; font-size: 0.875rem; color: #374151; margin-bottom: 0.5rem;">Pattern Library Framework</h3>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.875rem;">
+        <div>
+          <div style="font-weight: 600; color: #6b21a8; margin-bottom: 0.25rem;">Interaction Models (Primary Organization)</div>
+          <ul style="font-size: 0.75rem; color: #4b5563; margin: 0; padding-left: 1rem; line-height: 1.5;">
+            <li><strong>Conversational:</strong> User initiates dialogue</li>
+            <li><strong>Ambient/Contextual:</strong> AI surfaces automatically</li>
+            <li><strong>On-demand:</strong> User triggers AI action</li>
+            <li><strong>Autonomous:</strong> AI acts independently</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-weight: 600; color: #1d4ed8; margin-bottom: 0.25rem;">AI Capabilities (Secondary)</div>
+          <ul style="font-size: 0.75rem; color: #4b5563; margin: 0; padding-left: 1rem; line-height: 1.5;">
+            <li><strong>Informational:</strong> Summaries, insights, explanations</li>
+            <li><strong>Recommendations:</strong> Suggested actions, matches</li>
+            <li><strong>Automation:</strong> Performing tasks, executing</li>
+            <li><strong>Generation:</strong> Creating new content</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid #e5e7eb;">
+      <h1 style="font-size: 1.875rem; font-weight: 700; color: #111827; margin: 0 0 0.75rem 0;">Conversational AI Assistant - Example Template</h1>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 0.75rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 0.75rem; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em;">Interaction Model:</span>
+          <span style="padding: 0.25rem 0.75rem; background: #f3e8ff; color: #7c3aed; border-radius: 9999px; font-size: 0.875rem; font-weight: 500;">Conversational</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 0.75rem; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em;">AI Capabilities:</span>
+          <span style="padding: 0.25rem 0.75rem; background: #dbeafe; color: #2563eb; border-radius: 9999px; font-size: 0.875rem; font-weight: 500;">Informational</span>
+          <span style="padding: 0.25rem 0.75rem; background: #dbeafe; color: #2563eb; border-radius: 9999px; font-size: 0.875rem; font-weight: 500;">Recommendations</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overview Section -->
+    <div style="margin-bottom: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden;">
+      <div style="padding: 0.75rem 1rem; background: #f9fafb;">
+        <h3 style="font-weight: 600; font-size: 1.125rem; margin: 0;">Pattern Overview</h3>
+      </div>
+      <div style="padding: 1rem; background: white;">
+        <figure style="margin: 1rem 0; width: 100%;">
+          <img src="public/img/exampletemplate/askdela_overview1.png" alt="Ask Dela entry point" style="width: 100%; border-radius: 0.5rem; border: 1px solid #e5e7eb;" />
+          <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #4b5563; text-align: center;">Ask Dela entry point visible in global navigation</figcaption>
+        </figure>
+        <figure style="margin: 1rem 0; width: 100%;">
+          <img src="public/img/exampletemplate/askdela_overview2.png" alt="Conversation interface" style="width: 100%; border-radius: 0.5rem; border: 1px solid #e5e7eb;" />
+          <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #4b5563; text-align: center;">Conversation interface in context with the main application</figcaption>
+        </figure>
+        <div style="margin-top: 1rem;">
+          <div style="border-left: 4px solid #7c3aed; padding-left: 1rem; background: #faf5ff; padding: 0.5rem; margin-bottom: 1rem;">
+            <h4 style="font-weight: 600; color: #581c87; margin-bottom: 0.25rem;">Interaction Model: Conversational</h4>
+            <p style="font-size: 0.875rem; color: #374151; margin: 0;">Users initiate and maintain dialogue through natural language. The system responds in a conversational manner, maintaining context across multiple exchanges.</p>
+          </div>
+          <div style="border-left: 4px solid #2563eb; padding-left: 1rem; background: #eff6ff; padding: 0.5rem; margin-bottom: 1rem;">
+            <h4 style="font-weight: 600; color: #1e40af; margin-bottom: 0.25rem;">AI Capabilities: Informational + Recommendations</h4>
+            <p style="font-size: 0.875rem; color: #374151; margin: 0;">Provides information and guidance in response to queries, and may suggest next steps or actions.</p>
+          </div>
+        </div>
+        <div style="margin-top: 1rem;">
+          <div style="margin-bottom: 0.75rem;">
+            <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.25rem;">What it is</h4>
+            <p style="color: #4b5563; margin: 0;">A persistent AI assistant that users can interact with through natural language to get information, complete tasks, or receive guidance. The assistant maintains context across a conversation and can handle a range of queries related to the product domain.</p>
+          </div>
+          <div>
+            <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Primary user goal</h4>
+            <p style="color: #4b5563; margin: 0;">Get answers to questions, navigate the system, or accomplish tasks without knowing exact menu paths or feature locations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- When to Use Section -->
+    <div style="margin-bottom: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden;">
+      <div style="padding: 0.75rem 1rem; background: #f9fafb;">
+        <h3 style="font-weight: 600; font-size: 1.125rem; margin: 0;">When to Use This Pattern</h3>
+      </div>
+      <div style="padding: 1rem; background: white;">
+        <div style="padding: 0.75rem; border: 1px solid #bfdbfe; background: #eff6ff; color: #1e40af; border-radius: 0.5rem; display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+          <div style="flex-shrink: 0;">ℹ</div>
+          <div style="font-size: 0.875rem;"><strong>Pattern Selection:</strong> Choose your pattern based on the <strong>Interaction Model</strong> first (how will users engage?), then adapt based on <strong>AI Capabilities</strong> (what will the AI produce?).</div>
+        </div>
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.5rem;">When Conversational Interaction is the right fit:</h4>
+          <ul style="list-style: disc; padding-left: 1.25rem; color: #4b5563; font-size: 0.875rem; margin: 0; line-height: 1.6;">
+            <li>User needs vary widely and can't be predicted in advance</li>
+            <li>Questions require clarification or back-and-forth dialogue</li>
+            <li>Users benefit from natural language rather than structured menus/forms</li>
+            <li>The AI needs to maintain context across multiple exchanges</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.5rem;">⚠ Consider different patterns when:</h4>
+          <ul style="list-style: disc; padding-left: 1.25rem; color: #4b5563; font-size: 0.875rem; margin: 0; line-height: 1.6;">
+            <li>Ambient/Contextual if AI should proactively surface information without asking</li>
+            <li>On-demand if user knows exactly what AI action they want to trigger</li>
+            <li>Autonomous if AI should work in background without real-time interaction</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Pattern Components Section -->
+    <div style="margin-bottom: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden;">
+      <div style="padding: 0.75rem 1rem; background: #f9fafb;">
+        <h3 style="font-weight: 600; font-size: 1.125rem; margin: 0;">Core Pattern Components</h3>
+      </div>
+      <div style="padding: 1rem; background: white;">
+        <figure style="margin: 1rem 0; width: 100%;">
+          <img src="public/img/exampletemplate/askdela_core1.png" alt="Core pattern components" style="width: 100%; border-radius: 0.5rem; border: 1px solid #e5e7eb;" />
+          <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #4b5563; text-align: center;">Core pattern components: entry point, conversation panel, and response patterns</figcaption>
+        </figure>
+        <div style="margin-top: 1rem;">
+          <div style="border-left: 4px solid #2563eb; padding-left: 1rem; margin-bottom: 1rem;">
+            <h4 style="font-weight: 600; margin-bottom: 0.25rem;">1. Entry Point</h4>
+            <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.5rem;">How users access the assistant</p>
+            <div style="background: #f9fafb; padding: 0.75rem; border-radius: 0.25rem; font-size: 0.875rem;">
+              <div><strong>Standard implementation:</strong> Persistent icon/button in global navigation (typically bottom-right)</div>
+              <div><strong>Visual treatment:</strong> Branded icon with subtle animation/pulse to indicate availability</div>
+            </div>
+          </div>
+          <div style="border-left: 4px solid #2563eb; padding-left: 1rem; margin-bottom: 1rem;">
+            <h4 style="font-weight: 600; margin-bottom: 0.25rem;">2. Conversation Interface</h4>
+            <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.5rem;">The chat window where interaction happens</p>
+            <div style="background: #f9fafb; padding: 0.75rem; border-radius: 0.25rem; font-size: 0.875rem;">
+              <div><strong>Layout:</strong> Overlay panel or modal, typically 400-500px wide</div>
+              <div><strong>Input:</strong> Text field with send button, support for multi-line input</div>
+              <div><strong>Message display:</strong> User messages right-aligned, AI responses left-aligned</div>
+              <div><strong>Conversation history:</strong> Scrollable, maintains context within session</div>
+            </div>
+          </div>
+          <div style="border-left: 4px solid #2563eb; padding-left: 1rem; margin-bottom: 1rem;">
+            <h4 style="font-weight: 600; margin-bottom: 0.25rem;">3. AI Response Patterns</h4>
+            <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.5rem;">How the assistant communicates back</p>
+            <div style="background: #f9fafb; padding: 0.75rem; border-radius: 0.25rem; font-size: 0.875rem;">
+              <div><strong>Text responses:</strong> Clear, concise answers in conversational tone</div>
+              <div><strong>Rich content:</strong> Links, buttons, or cards when directing to features</div>
+              <div><strong>Loading states:</strong> Typing indicator while processing</div>
+              <div><strong>Citations:</strong> When pulling from documentation or data, show source</div>
+            </div>
+          </div>
+          <div style="border-left: 4px solid #2563eb; padding-left: 1rem;">
+            <h4 style="font-weight: 600; margin-bottom: 0.25rem;">4. Transparency &amp; Control</h4>
+            <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.5rem;">Building user trust and understanding</p>
+            <div style="background: #f9fafb; padding: 0.75rem; border-radius: 0.25rem; font-size: 0.875rem;">
+              <div><strong>Limitations disclosure:</strong> Clear about what it can/cannot do</div>
+              <div><strong>Suggested prompts:</strong> Help users understand capabilities</div>
+              <div><strong>Feedback mechanism:</strong> Thumbs up/down on responses</div>
+              <div><strong>Conversation controls:</strong> Clear/reset conversation, dismiss</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Implementation Examples Section -->
+    <div style="margin-bottom: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden;">
+      <div style="padding: 0.75rem 1rem; background: #f9fafb;">
+        <h3 style="font-weight: 600; font-size: 1.125rem; margin: 0;">Implementation Examples</h3>
+      </div>
+      <div style="padding: 1rem; background: white;">
+        <figure style="margin: 1rem 0; width: 100%;">
+          <img src="public/img/exampletemplate/askdela_examples1.png" alt="Ask Dela in Costpoint" style="width: 100%; border-radius: 0.5rem; border: 1px solid #e5e7eb;" />
+          <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #4b5563; text-align: center;">Ask Dela implemented in Costpoint</figcaption>
+        </figure>
+        <figure style="margin: 1rem 0; width: 100%;">
+          <img src="public/img/exampletemplate/askdela_examples2.png" alt="Ask Dela in another product" style="width: 100%; border-radius: 0.5rem; border: 1px solid #e5e7eb;" />
+          <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #4b5563; text-align: center;">Ask Dela in another product context</figcaption>
+        </figure>
+        <div style="border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <h4 style="font-weight: 600; margin: 0;">Ask Dela</h4>
+            <span style="font-size: 0.75rem; background: #f3f4f6; padding: 0.25rem 0.5rem; border-radius: 0.25rem;">All Products</span>
+          </div>
+          <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Company-wide AI assistant available across all Deltek products. Answers questions about product features, helps with navigation, and provides contextual guidance.</p>
+          <div style="font-size: 0.75rem; color: #6b7280;"><strong>Key features:</strong> Persistent across sessions, product-aware, can deep-link to features</div>
+        </div>
+        <div style="padding: 0.75rem; border: 1px solid #fde68a; background: #fffbeb; color: #92400e; border-radius: 0.5rem;">
+          <strong>Note for designers:</strong> When implementing this pattern in your product, ensure Ask Dela branding and interaction model remain consistent. Product-specific customization should be limited to the knowledge base and feature linking.
+        </div>
+      </div>
+    </div>
+
+    <!-- Acceptable Variations Section -->
+    <div style="margin-bottom: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden;">
+      <div style="padding: 0.75rem 1rem; background: #f9fafb;">
+        <h3 style="font-weight: 600; font-size: 1.125rem; margin: 0;">Acceptable Variations &amp; Deviations</h3>
+      </div>
+      <div style="padding: 1rem; background: white;">
+        <div style="padding: 0.75rem; border: 1px solid #fcd34d; background: #fffbeb; color: #92400e; border-radius: 0.5rem; margin-bottom: 1rem;">
+          <strong>When deviations occur:</strong> Document the rationale and report to committee lead for tracking.
+        </div>
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; font-size: 0.875rem; border-collapse: collapse;">
+            <thead>
+              <tr style="background: #f3f4f6;">
+                <th style="text-align: left; padding: 0.5rem; font-weight: 600;">Component</th>
+                <th style="text-align: left; padding: 0.5rem; font-weight: 600;">Standard</th>
+                <th style="text-align: left; padding: 0.5rem; font-weight: 600;">When Deviation Acceptable</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid #e5e7eb;">
+                <td style="padding: 0.5rem;">Entry point location</td>
+                <td style="padding: 0.5rem;">Bottom-right persistent button</td>
+                <td style="padding: 0.5rem;">Framework constraints prevent fixed positioning; technical limitations with mobile layouts</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #e5e7eb;">
+                <td style="padding: 0.5rem;">Conversation panel size</td>
+                <td style="padding: 0.5rem;">400-500px width</td>
+                <td style="padding: 0.5rem;">Mobile/tablet adaptations; integration with existing panel systems</td>
+              </tr>
+              <tr>
+                <td style="padding: 0.5rem;">Response format</td>
+                <td style="padding: 0.5rem;">Text + rich content cards</td>
+                <td style="padding: 0.5rem;">Product-specific data visualization needs; technical capabilities of framework</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Design Considerations Section -->
+    <div style="margin-bottom: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden;">
+      <div style="padding: 0.75rem 1rem; background: #f9fafb;">
+        <h3 style="font-weight: 600; font-size: 1.125rem; margin: 0;">Design Considerations &amp; Trade-offs</h3>
+      </div>
+      <div style="padding: 1rem; background: white;">
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Usability considerations</h4>
+          <ul style="list-style: disc; padding-left: 1.25rem; font-size: 0.875rem; color: #4b5563; margin: 0; line-height: 1.6;">
+            <li><strong>Context awareness:</strong> Should the assistant know where the user is in the product? This improves relevance but increases complexity.</li>
+            <li><strong>Conversation persistence:</strong> Should history persist across sessions? Better UX but potential privacy concerns.</li>
+            <li><strong>Scope boundaries:</strong> Clearly communicate what the assistant can/cannot do to prevent user frustration.</li>
+          </ul>
+        </div>
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Technical considerations</h4>
+          <ul style="list-style: disc; padding-left: 1.25rem; font-size: 0.875rem; color: #4b5563; margin: 0; line-height: 1.6;">
+            <li>Response time expectations (aim for under 3 seconds)</li>
+            <li>Integration with product-specific data and permissions</li>
+            <li>Fallback behavior when AI service is unavailable</li>
+            <li>Framework limitations on positioning and layout</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Common pitfalls</h4>
+          <div style="padding: 0.75rem; border: 1px solid #fcd34d; background: #fffbeb; color: #92400e; border-radius: 0.5rem;">
+            <ul style="list-style: disc; padding-left: 1.25rem; margin: 0; line-height: 1.6;">
+              <li>Overestimating AI capabilities leads to disappointed users</li>
+              <li>Poor error handling when AI misunderstands or fails</li>
+              <li>Inconsistent tone across different types of responses</li>
+              <li>Lack of escape routes when conversation isn't helping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e5e7eb;">
+      <div style="display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; color: #6b7280;">
+        <div><strong>Pattern Owner:</strong> Charlie</div>
+        <div><strong>Last updated:</strong> December 2025</div>
+        <div><strong>Next Review:</strong> January 2026</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
