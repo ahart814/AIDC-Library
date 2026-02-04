@@ -1,14 +1,10 @@
 /**
- * Pattern Document Data
+ * Pattern Document Data - OCR/ICR Data Extraction
  *
- * Copy this file and customize the values to create your own pattern document.
- * Pass your data to PatternDocument: <PatternDocument data={myPatternData} />
+ * Each pattern lives in its own directory (e.g., OCR/). This file defines the data.
+ * Images go in public/img/{PatternName}/ and are referenced as /img/{PatternName}/filename.png
  *
- * Do not edit HTML/JSX - all content is driven by this data structure.
- *
- * Images: Add 1-3 images to overview, components, or examples sections.
- * Place images in public/img/{your-pattern}/ and reference as:
- *   images: [{ src: "/img/your-pattern/filename.png", caption: "Description" }]
+ * See patternData.js in src/ for the template structure.
  */
 
 export const ocrPatternData = {
@@ -22,8 +18,8 @@ export const ocrPatternData = {
   // Overview section
   overview: {
     images: [
-      // { src: "/img/ocrtemplate/ocr_overview1.png", caption: "Example caption for overview screenshot" },
-      // Add up to 3 images - uncomment and update paths when you have screenshots
+      // { src: "/img/OCR/ocr_overview1.png", caption: "Example caption for overview screenshot" },
+      // Add up to 3 images - uncomment and add files to public/img/OCR/
     ],
     interactionModel: {
       label: "On Demand",
@@ -61,7 +57,7 @@ export const ocrPatternData = {
   // Components section
   components: {
     images: [
-      // { src: "/img/ocrtemplate/ocr_core1.png", caption: "Example caption for components screenshot" },
+      // { src: "/img/OCR/ocr_core1.png", caption: "Example caption for components screenshot" },
     ],
     items: [
       {
@@ -104,7 +100,7 @@ export const ocrPatternData = {
   // Examples section
   examples: {
     images: [
-      // { src: "/img/ocrtemplate/ocr_examples1.png", caption: "Example caption for implementation screenshot" },
+      // { src: "/img/OCR/ocr_examples1.png", caption: "Example caption for implementation screenshot" },
     ],
     items: [
       {
@@ -156,7 +152,7 @@ export const ocrPatternData = {
 
   // Footer metadata
   metadata: {
-    patternOwner: "Charlie",
-    nextReview: "January 2026"
+    patternOwner: "Alex",
+    nextReview: "June 2026"
   }
 };

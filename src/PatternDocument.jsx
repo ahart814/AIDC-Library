@@ -136,10 +136,7 @@ const PatternDocument = ({ data, templateMode = false }) => {
             ))}
           </div>
         </div>
-        <p className="text-gray-600 text-sm">
-          Last updated: {data.lastUpdated}
-          {data.patternId && ` | Pattern ID: ${data.patternId}`}
-        </p>
+        
       </div>
 
       {/* Overview */}
@@ -410,14 +407,13 @@ const PatternDocument = ({ data, templateMode = false }) => {
                 <strong>Pattern Owner:</strong> {metadata.patternOwner}
               </div>
             )}
+         
+            <p className="text-gray-600 text-sm">
+             <strong>Last updated:</strong> {data.lastUpdated}
+            </p>
             {metadata.nextReview && (
               <div>
                 <strong>Next Review:</strong> {metadata.nextReview}
-              </div>
-            )}
-            {metadata.reviewCycle && (
-              <div>
-                <strong>Review Cycle:</strong> {metadata.reviewCycle}
               </div>
             )}
           </div>
